@@ -37,6 +37,9 @@ h2 {
   letter-spacing: 1px;
 }
 
+.aizquierda{
+  margin-left: 5%;
+}
 .lista-citas .media {
   border-bottom: 1px solid #e1e1e1;
   padding-bottom: 3rem;
