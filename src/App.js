@@ -17,11 +17,10 @@ const App = () => {
         setTarjetas(nuevasTarjetas);
     }
     return (
-        <div> 
-            
-         <Formulario onAgregarTarjeta={agregarTarjeta}/>
-         <div className="one-half column">
-         <h1 className="text-center mb-4">Aplicacion Tarjetas</h1>
+        <div>     
+        <Formulario onAgregarTarjeta={agregarTarjeta}/>
+        <div className="one-half column">
+        <h1 className="text-center mb-4">Aplicacion Tarjetas</h1>
         {tarjetas.map((tarjeta) => (
         <Tarjetas 
         key={tarjeta.id}
